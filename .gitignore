@@ -1,0 +1,20 @@
+# Windows images (source and built)
+*.iso
+
+# Build scratch folder (mounted image, extracted ISO, build log)
+work/
+
+# Backup of this PC's original Windows sounds and logs (made by Apply-Sounds.ps1)
+backup/
+
+# Generated unattend file (contains the local account password)
+autounattend.xml
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.vscode/
